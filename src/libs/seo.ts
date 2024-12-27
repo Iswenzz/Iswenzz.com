@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 
+import config from "@/config";
+
 export const getSEO = ({
 	url,
 	title,
@@ -7,31 +9,29 @@ export const getSEO = ({
 	keywords,
 	openGraph,
 	extra
-}: Props): Metadata => ({
+}: Config): Metadata => ({
 	// 50 characters
-	title,
+	title: title || config.title,
 	// 160 characters
-	description,
-	keywords,
-	applicationName: title,
+	description: description || config.description,
+	keywords: keywords || config.keywords,
+	applicationName: title || config.title,
 	metadataBase: new URL(
-		process.env.NODE_ENV === "development"
-			? "http://localhost:3000/"
-			: process.env.WEBSITE_URL || ""
+		process.env.NODE_ENV === "development" ? "http://localhost:3000/" : config.url
 	),
 	// app/opengraph-image.jpg 1200x630
 	openGraph: {
-		title: openGraph?.title || title,
-		description: openGraph?.description || description,
-		url: openGraph?.url || process.env.WEBSITE_URL,
+		title: openGraph?.title || title || config.title,
+		description: openGraph?.description || description || config.description,
+		url: openGraph?.url || config.url,
 		images: "/opengraph-image.jpg",
 		locale: "en_US",
 		type: "website"
 	},
 	// app/twitter-image.jpg 1200x630
 	twitter: {
-		title: openGraph?.title || title,
-		description: openGraph?.description || description,
+		title: openGraph?.title || title || config.title,
+		description: openGraph?.description || description || config.description,
 		card: "summary_large_image",
 		images: "/twittergraph-image.jpg",
 		creator: "@AlexisNardiello"
@@ -49,11 +49,11 @@ export const getViewport = (): Viewport => ({
 	maximumScale: 2
 });
 
-type Props = {
+type Config = {
 	url: string;
 	title: string;
-	description: string;
-	keywords: string[];
+	description?: string;
+	keywords?: string[];
 	openGraph?: Metadata["openGraph"];
 	extra?: Partial<Metadata>;
 };
