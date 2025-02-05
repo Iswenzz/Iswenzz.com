@@ -8,7 +8,7 @@
 		"points": [
 			"• C C++ C# GSC",
 			"• Java Python",
-			"• Shell Powershell",
+			"• Shell PowerShell",
 			"• Assembly x86",
 			"• CI CD Jira"
 		]
@@ -26,21 +26,21 @@
 	{
 		"name": "Web Stacks",
 		"points": [
-			"• Next React Redux Apollo Vite Webpack",
-			"• Nest Express TypeORM",
+			"• Next React Redux Zustand Apollo Vite Webpack",
+			"• Nest Express Prisma TypeORM",
 			"• Tauri Three",
 			"• SpringBoot",
 			"• MariaDB MongoDB",
 			"• Vitest Jest Playwright",
-			"• MUI Tailwind"
+			"• MUI Tailwind DaisyUI HeadlessUI"
 		]
 	},
 	{
 		"name": "Software Stacks",
 		"points": [
-			"• .NET Winforms",
-			"• CMake Vcpkg Conan",
-			"• HLSL OpenGL OpenFX DirectX",
+			"• .NET WinForms",
+			"• CMake vcpkg Conan",
+			"• HLSL DirectX OpenGL OpenFX",
 			"• GTest Greatest NUnit JUnit",
 			"• Docker"
 		]
