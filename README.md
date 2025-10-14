@@ -2,7 +2,6 @@
 
 [![Checks](https://img.shields.io/github/check-runs/Iswenzz/Iswenzz.com/master?logo=github)](https://github.com/Iswenzz/Iswenzz.com/actions)
 [![CodeFactor](https://img.shields.io/codefactor/grade/github/Iswenzz/Iswenzz.com?label=codefactor&logo=codefactor)](https://www.codefactor.io/repository/github/iswenzz/Iswenzz.com)
-[![CodeCov](https://img.shields.io/codecov/c/github/Iswenzz/Iswenzz.com?label=codecov&logo=codecov)](https://codecov.io/gh/Iswenzz/Iswenzz.com)
 [![License](https://img.shields.io/github/license/Iswenzz/Iswenzz.com?color=blue&logo=gitbook&logoColor=white)](https://github.com/Iswenzz/Iswenzz.com/blob/master/LICENSE)
 
 ![](https://i.imgur.com/qEujTWV.jpeg)
@@ -28,3 +27,4 @@ _Pre-Requisites:_
 
 **_Note:_** If you would like to contribute to this repository, feel free to send a pull request, and I will review your code.
 Also feel free to post about any problems that may arise in the issues section of the repository.
+
