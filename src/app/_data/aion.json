@@ -36,11 +36,11 @@
 		]
 	},
 	{
-		"name": "AION Extensions",
-		"repository": "https://github.com/Iswenzz/AION-Extensions",
+		"name": "AION Formats",
+		"repository": "https://github.com/Iswenzz/AION-Formats",
 		"open": false,
-		"image": "/images/projects/AION-Extensions.jpg",
-		"markdown": "/markdown/AION-Extensions.md",
+		"image": "/images/projects/AION-Formats.jpg",
+		"markdown": "/markdown/AION-Formats.md",
 		"icons": [
 			{ "name": "C++", "src": "/images/devicons/cpp.svg" },
 			{ "name": "Typescript", "src": "/images/devicons/typescript.svg" }
