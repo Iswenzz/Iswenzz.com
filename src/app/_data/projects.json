@@ -1,19 +1,40 @@
 [
 	{
-		"name": "GitTools",
-		"repository": "https://github.com/Iswenzz/GitTools",
-		"open": true,
-		"image": "/images/projects/GitTools.jpg",
-		"markdown": "https://raw.githubusercontent.com/Iswenzz/GitTools/master/README.md",
+		"name": "IzEngine",
+		"repository": "https://github.com/Iswenzz/IzEngine",
+		"open": false,
+		"image": "/images/projects/IzEngine.jpg",
+		"markdown": "/markdown/IzEngine.md",
+		"icons": [{ "name": "C++", "src": "/images/devicons/cpp.svg" }]
+	},
+	{
+		"name": "IzEngine-UE",
+		"repository": "https://github.com/Iswenzz/IzEngine-UE",
+		"open": false,
+		"image": "/images/projects/IzEngine-UE.jpg",
+		"markdown": "/markdown/IzEngine-UE.md",
 		"icons": [
-			{ "name": "C#", "src": "/images/devicons/csharp.svg" },
-			{ "name": ".NET", "src": "/images/devicons/dotnet.svg" },
-			{ "name": "Git", "src": "/images/devicons/git.svg" }
+			{ "name": "C++", "src": "/images/devicons/cpp.svg" },
+			{
+				"name": "Unreal Engine",
+				"src": "/images/devicons/unreal-engine.svg"
+			}
 		]
 	},
 	{
-		"name": "CTGP-R Ghost Downloader",
-		"repository": "https://github.com/Iswenzz/CTGP-R-Ghost-Downloader",
+		"name": "IzEngine-OFX",
+		"repository": "https://github.com/Iswenzz/IzEngine-OFX",
+		"open": false,
+		"image": "/images/projects/IzEngine-OFX.jpg",
+		"markdown": "/markdown/IzEngine-OFX.md",
+		"icons": [
+			{ "name": "C++", "src": "/images/devicons/cpp.svg" },
+			{ "name": "OpenFX", "src": "/images/devicons/openfx.svg" }
+		]
+	},
+	{
+		"name": "CTGPR-GD",
+		"repository": "https://github.com/Iswenzz/CTGPR-GD",
 		"open": true,
 		"image": "/images/projects/CTGP-R-Ghost-Downloader.jpg",
 		"markdown": "https://raw.githubusercontent.com/Iswenzz/CTGP-R-Ghost-Downloader/master/README.md",

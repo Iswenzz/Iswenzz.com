@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Web Development",
-		"points": ["• TypeScript SCSS", "• REST & GraphQL APIs", "• Microservices", "• SEO"]
+		"points": ["• TypeScript", "• REST & GraphQL APIs", "• Microservices", "• SEO"]
 	},
 	{
 		"name": "Software Development",
@@ -9,7 +9,7 @@
 			"• C C++ C# GSC",
 			"• Java Python",
 			"• Shell PowerShell",
-			"• Assembly x86",
+			"• Assembly",
 			"• CI CD Jira"
 		]
 	},
@@ -19,7 +19,7 @@
 			"• BSP Blockout & Landscape",
 			"• Detail geometry",
 			"• Shader / Material creation",
-			"• Lighting, FX SFX placement",
+			"• Lighting, VFX SFX placement",
 			"• Level optimization"
 		]
 	},
@@ -30,7 +30,7 @@
 			"• Nest Express Prisma TypeORM",
 			"• Tauri Three",
 			"• SpringBoot",
-			"• MariaDB MongoDB",
+			"• MariaDB MongoDB PostgreSQL",
 			"• Vitest Jest Playwright",
 			"• MUI Tailwind DaisyUI HeadlessUI"
 		]
@@ -51,8 +51,8 @@
 			"• Unreal Engine & Unity",
 			"• Radiant / GtkRadiant",
 			"• Blender, Maya, 3DS Max",
-			"• VEGAS & Adobe Premiere",
-			"• Photoshop Figma"
+			"• VEGAS, Adobe Premiere, CapCut",
+			"• Photoshop, Figma"
 		]
 	}
 ]

@@ -7,7 +7,7 @@ const About = () => (
 		</h2>
 		<h3 className="pt-4 text-2xl md:text-3xl text-gray-500 tracking-wider">
 			<SlideIn>
-				I&apos;ve experience working on a diverse set of programming topics for the past 9
+				I&apos;ve experience working on a diverse set of programming topics for the past 10
 				years such as software development, web development, database design, graphics
 				programming, game development, UI/UX design, and reverse engineering.
 			</SlideIn>

@@ -2,12 +2,11 @@ import { FadeIn, SlideIn } from "@/components";
 
 import aion from "../_data/aion.json";
 import cod4 from "../_data/cod4.json";
-import iswenzz from "../_data/iswenzz.json";
 import projects from "../_data/projects.json";
 
 import Project from "./Project";
 
-const items = [...aion, ...cod4, ...iswenzz, ...projects];
+const items = [...aion, ...cod4, ...projects];
 
 const Projects = () => (
 	<FadeIn id="projects" className="relative py-24 px-8">

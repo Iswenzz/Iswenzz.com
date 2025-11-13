@@ -43,14 +43,6 @@
 		"icons": [{ "name": "GSC", "src": "/images/devicons/gsc.svg" }]
 	},
 	{
-		"name": "CGSC",
-		"repository": "https://github.com/Iswenzz/CGSC",
-		"open": true,
-		"image": "/images/projects/CGSC.jpg",
-		"markdown": "https://raw.githubusercontent.com/Iswenzz/CGSC/master/README.md",
-		"icons": [{ "name": "C", "src": "/images/devicons/c.svg" }]
-	},
-	{
 		"name": "GSCLIB",
 		"repository": "https://github.com/Iswenzz/gsclib",
 		"open": true,

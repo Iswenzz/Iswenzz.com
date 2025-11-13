@@ -41,10 +41,7 @@
 		"open": false,
 		"image": "/images/projects/AION-Formats.jpg",
 		"markdown": "/markdown/AION-Formats.md",
-		"icons": [
-			{ "name": "C++", "src": "/images/devicons/cpp.svg" },
-			{ "name": "Typescript", "src": "/images/devicons/typescript.svg" }
-		]
+		"icons": [{ "name": "C++", "src": "/images/devicons/cpp.svg" }]
 	},
 	{
 		"name": "AION Encdec",
