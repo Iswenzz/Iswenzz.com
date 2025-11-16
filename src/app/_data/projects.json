@@ -22,17 +22,6 @@
 		]
 	},
 	{
-		"name": "IzEngine-OFX",
-		"repository": "https://github.com/Iswenzz/IzEngine-OFX",
-		"open": false,
-		"image": "/images/projects/IzEngine-OFX.jpg",
-		"markdown": "/markdown/IzEngine-OFX.md",
-		"icons": [
-			{ "name": "C++", "src": "/images/devicons/cpp.svg" },
-			{ "name": "OpenFX", "src": "/images/devicons/openfx.svg" }
-		]
-	},
-	{
 		"name": "CTGPR-GD",
 		"repository": "https://github.com/Iswenzz/CTGPR-GD",
 		"open": true,
