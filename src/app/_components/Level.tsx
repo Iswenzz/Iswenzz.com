@@ -1,7 +1,7 @@
 "use client";
 
 import { FC, useState } from "react";
-import ReactPlayer from "react-player/youtube";
+import ReactPlayer from "react-player";
 import Image from "next/image";
 
 import { SlideIn, Dialog } from "@/components";
@@ -46,7 +46,7 @@ const Level: FC<Props> = ({ level }) => {
 			<Dialog className="max-w-5xl min-h-[80vh]" open={isOpen} onClose={close}>
 				<h2 className="text-3xl mb-4">{level.name}</h2>
 				{level.url ? (
-					<ReactPlayer url={level.url} width="100%" height={400} controls />
+					<ReactPlayer src={level.url} width="100%" height={400} controls />
 				) : (
 					<Image
 						className="w-full"

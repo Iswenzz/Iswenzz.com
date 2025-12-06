@@ -25,7 +25,7 @@
 		"name": "CTGPR-GD",
 		"repository": "https://github.com/Iswenzz/CTGPR-GD",
 		"open": true,
-		"image": "/images/projects/CTGP-R-Ghost-Downloader.jpg",
+		"image": "/images/projects/CTGPR-GD.jpg",
 		"markdown": "https://raw.githubusercontent.com/Iswenzz/CTGP-R-Ghost-Downloader/master/README.md",
 		"icons": [
 			{ "name": "C#", "src": "/images/devicons/csharp.svg" },

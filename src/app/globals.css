@@ -1,8 +1,10 @@
-@import "./markdown.css";
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@plugin "daisyui" {
+	themes: "dark" --default;
+}
+
+@import "./markdown.css";
 
 html,
 body {

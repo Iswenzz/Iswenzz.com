@@ -65,16 +65,19 @@ const Project: FC<Props> = ({ project }) => {
 					</div>
 				)}
 				{markdown ? (
-					<Markdown
-						className="markdown"
-						components={{
-							a: props => <Link target="_blank" {...props} />
-						}}
-						remarkPlugins={[remarkGfm]}
-						rehypePlugins={[rehypeRaw, rehypeHighlight]}
-					>
-						{markdown}
-					</Markdown>
+					<div className="markdown">
+						<Markdown
+							components={{
+								a: ({ href, ...props }) => (
+									<Link href={href || "/"} target="_blank" {...props} />
+								)
+							}}
+							remarkPlugins={[remarkGfm]}
+							rehypePlugins={[rehypeRaw, rehypeHighlight]}
+						>
+							{markdown}
+						</Markdown>
+					</div>
 				) : (
 					<>
 						<div className="w-full h-12" />
