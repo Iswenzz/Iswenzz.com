@@ -4,6 +4,14 @@
 	themes: "dark" --default;
 }
 
+@plugin "daisyui/theme" {
+	name: dark;
+	color-scheme: dark;
+	--radius-selector: 1.9rem;
+	--radius-field: 0.5rem;
+	--radius-box: 1rem;
+}
+
 @import "./markdown.css";
 
 html,
