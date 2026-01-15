@@ -2,9 +2,9 @@
 	{
 		"name": "IW3SR",
 		"repository": "https://github.com/Iswenzz/IW3SR",
-		"open": false,
+		"open": true,
 		"image": "/images/projects/IW3SR.jpg",
-		"markdown": "https://raw.githubusercontent.com/Iswenzz/IW3SR.Release/master/README.md",
+		"markdown": "https://raw.githubusercontent.com/Iswenzz/IW3SR/master/README.md",
 		"icons": [
 			{ "name": "C++", "src": "/images/devicons/cpp.svg" },
 			{ "name": "Assembly", "src": "/images/devicons/assembly.svg" }
@@ -13,9 +13,9 @@
 	{
 		"name": "SR Speedrun",
 		"repository": "https://github.com/Iswenzz/SR-Speedrun",
-		"open": false,
+		"open": true,
 		"image": "/images/projects/SR-Speedrun.jpg",
-		"markdown": "/markdown/SR-Speedrun.md",
+		"markdown": "https://raw.githubusercontent.com/Iswenzz/SR-Speedrun/master/README.md",
 		"icons": [
 			{ "name": "GSC", "src": "/images/devicons/gsc.svg" },
 			{ "name": "C", "src": "/images/devicons/c.svg" },
@@ -25,9 +25,9 @@
 	{
 		"name": "SR Deathrun",
 		"repository": "https://github.com/Iswenzz/SR-Deathrun",
-		"open": false,
+		"open": true,
 		"image": "/images/projects/SR-Deathrun.jpg",
-		"markdown": "/markdown/SR-Deathrun.md",
+		"markdown": "https://raw.githubusercontent.com/Iswenzz/SR-Deathrun/master/README.md",
 		"icons": [
 			{ "name": "GSC", "src": "/images/devicons/gsc.svg" },
 			{ "name": "C", "src": "/images/devicons/c.svg" },
@@ -48,7 +48,7 @@
 		"open": true,
 		"image": "/images/projects/gsclib.jpg",
 		"markdown": "https://raw.githubusercontent.com/Iswenzz/gsclib/master/README.md",
-		"icons": [{ "name": "C", "src": "/images/devicons/c.svg" }]
+		"icons": [{ "name": "C++", "src": "/images/devicons/cpp.svg" }]
 	},
 	{
 		"name": "CoD4 DM1",
