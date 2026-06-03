@@ -2,33 +2,27 @@
 
 ![](https://i.imgur.com/vZItSj9.jpeg)
 
-AION is an extension of the original AION client, specifically designed for the AION Project. This client extension unlocks specific content within the game, such as quests, items, crafting, and reintroduces features that may have been removed or altered over time. With AION, players can enjoy an enhanced gameplay experience with additional content and restored features.
+A client modification for the AION Project powered by [IzEngine](https://github.com/Iswenzz/IzEngine). Built to go beyond the limitations of the original client. 
+It reworks the engine layer, fixing long-standing bugs, modernizing performance.
 
-## Features
+## Engine
 
-#### Unlocked Quests
+- Fixed the 64-bit client.
+- Reworked camera behavior to fix broken movements and jitter.
+- Corrected 2D texture positioning.
+- Removed the IP lock, so the client connects wherever the project points.
+- DXVK integrated, translating Direct3D to Vulkan for smoother frame pacing and fewer stalls.
+- Graphics pipeline hooked for custom rendering, huds, and effects.
 
-Unlocks quests that were previously unavailable or inaccessible in the original AION client. Explore new storylines, embark on challenging missions, and discover hidden adventures that were previously locked.
+## Game
 
-#### Expanded Item Pool
-
-The game's item pool is expanded to include additional items that were not originally available as well as all deleted items.
-
-#### Reintroduced Features
-
-Bring back certain features and mechanics that may have been altered or removed in the official client. Experience gameplay elements that were once part of the game but have been reinstated to deliver a more comprehensive and nostalgic AION experience.
-
-#### Improved Performance and Stability
-
-Provide improved performance and stability over the original client. Benefit from optimizations and enhancements that ensure a smoother and more enjoyable gaming experience.
-
-#### Developer Console
-
-A developer console that allows developers to execute commands, perform tests, and access debugging tools. The console provides a flexible environment for experimentation and customization, enabling deeper exploration and development.
-
-#### Enhanced Anti-Cheat Systems
-
-Incorporates robust anti-cheat systems to maintain a fair and secure gaming environment. These systems help prevent cheating, exploit abuse, and unauthorized modifications, ensuring a level playing field for all players.
+- In-game browser hooked so video can play anywhere in game.
+- Bink API hooked to play local video files.
+- Stripped out unused data tables, cutting load time.
+- Developer console and engine cvars unlocked.
+- Camera hooking exposed for programmatic control.
+- Reworked in-game menus.
+- Reaches the AION-Project website from inside the client.
 
 ## Building
 
@@ -45,5 +39,5 @@ _Build Command:_
 
 ## Contributors
 
-**_Note:_** If you would like to contribute to this repository, feel free to send a pull request, and I will review your code.
+***Note:*** If you would like to contribute to this repository, feel free to send a pull request, and I will review your code.
 Also feel free to post about any problems that may arise in the issues section of the repository.

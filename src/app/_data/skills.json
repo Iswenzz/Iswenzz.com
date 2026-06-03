@@ -18,21 +18,21 @@
 		"points": [
 			"• BSP Blockout & Landscape",
 			"• Detail geometry",
-			"• Shader / Material creation",
-			"• Lighting, VFX SFX placement",
+			"• Lighting & Atmosphere",
+			"• Material & Shader Creation",
 			"• Level optimization"
 		]
 	},
 	{
 		"name": "Web Stacks",
 		"points": [
-			"• Next React Redux Zustand Apollo Vite Webpack",
+			"• Next React Redux Zustand Vite Webpack",
 			"• Nest Express Prisma",
 			"• Tauri Three",
 			"• SpringBoot",
 			"• MariaDB MongoDB PostgreSQL",
 			"• Vitest Jest Playwright",
-			"• MUI Tailwind DaisyUI HeadlessUI"
+			"• Tailwind DaisyUI HeadlessUI MUI"
 		]
 	},
 	{
@@ -48,8 +48,8 @@
 	{
 		"name": "Softwares",
 		"points": [
-			"• Unreal Engine & Unity",
-			"• Radiant / GtkRadiant",
+			"• Unreal Engine",
+			"• Radiant",
 			"• Blender, Maya, 3DS Max",
 			"• VEGAS, Adobe Premiere, CapCut",
 			"• Photoshop, Figma"

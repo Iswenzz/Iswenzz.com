@@ -8,18 +8,12 @@
 		"icons": [{ "name": "C++", "src": "/images/devicons/cpp.svg" }]
 	},
 	{
-		"name": "IzEngine-UE",
-		"repository": "https://github.com/Iswenzz/IzEngine-UE",
+		"name": "IzFF",
+		"repository": "https://github.com/Iswenzz/IzFF",
 		"open": false,
-		"image": "/images/projects/IzEngine-UE.jpg",
-		"markdown": "/markdown/IzEngine-UE.md",
-		"icons": [
-			{ "name": "C++", "src": "/images/devicons/cpp.svg" },
-			{
-				"name": "Unreal Engine",
-				"src": "/images/devicons/unreal-engine.svg"
-			}
-		]
+		"image": "/images/projects/IzFF.jpg",
+		"markdown": "/markdown/IzFF.md",
+		"icons": [{ "name": "C++", "src": "/images/devicons/cpp.svg" }]
 	},
 	{
 		"name": "CTGPR-GD",

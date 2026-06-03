@@ -40,7 +40,24 @@
 		"open": true,
 		"image": "/images/projects/SR-BattleRoyale.jpg",
 		"markdown": "https://raw.githubusercontent.com/Iswenzz/SR-BattleRoyale/master/README.md",
-		"icons": [{ "name": "GSC", "src": "/images/devicons/gsc.svg" }]
+		"icons": [
+			{ "name": "GSC", "src": "/images/devicons/gsc.svg" },
+			{ "name": "C", "src": "/images/devicons/c.svg" },
+			{ "name": "C++", "src": "/images/devicons/cpp.svg" }
+		]
+	},
+	{
+		"name": "SR.com",
+		"repository": "https://github.com/Iswenzz/SR.com",
+		"open": true,
+		"image": "/images/projects/SR.com.jpg",
+		"markdown": "https://raw.githubusercontent.com/Iswenzz/SR.com/master/README.md",
+		"icons": [
+			{ "name": "Typescript", "src": "/images/devicons/typescript.svg" },
+			{ "name": "Next", "src": "/images/devicons/next.svg" },
+			{ "name": "Tailwind", "src": "/images/devicons/tailwind.svg" },
+			{ "name": "Prisma", "src": "/images/devicons/prisma.svg" }
+		]
 	},
 	{
 		"name": "GSCLIB",

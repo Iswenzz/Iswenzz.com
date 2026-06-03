@@ -26,22 +26,11 @@
 		"markdown": "/markdown/AION-Project.com.md",
 		"icons": [
 			{ "name": "Typescript", "src": "/images/devicons/typescript.svg" },
-			{ "name": "React", "src": "/images/devicons/react.svg" },
-			{ "name": "Redux", "src": "/images/devicons/redux.svg" },
-			{ "name": "Three", "src": "/images/devicons/three.svg" },
-			{ "name": "MUI", "src": "/images/devicons/mui.svg" },
-			{ "name": "Nest", "src": "/images/devicons/nest.svg" },
-			{ "name": "TypeORM", "src": "/images/devicons/typeorm.svg" },
-			{ "name": "GraphQL", "src": "/images/devicons/graphql.svg" }
+			{ "name": "Next", "src": "/images/devicons/next.svg" },
+			{ "name": "Tailwind", "src": "/images/devicons/tailwind.svg" },
+			{ "name": "Prisma", "src": "/images/devicons/prisma.svg" },
+			{ "name": "Three", "src": "/images/devicons/three.svg" }
 		]
-	},
-	{
-		"name": "AION Formats",
-		"repository": "https://github.com/Iswenzz/AION-Formats",
-		"open": false,
-		"image": "/images/projects/AION-Formats.jpg",
-		"markdown": "/markdown/AION-Formats.md",
-		"icons": [{ "name": "C++", "src": "/images/devicons/cpp.svg" }]
 	},
 	{
 		"name": "AION Encdec",
