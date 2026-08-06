@@ -19,11 +19,11 @@
 		"icons": [{ "name": "Java", "src": "/images/devicons/java.svg" }]
 	},
 	{
-		"name": "AION Project.com",
-		"repository": "https://github.com/Iswenzz/AION-Project.com",
+		"name": "AION Project.eu",
+		"repository": "https://github.com/Iswenzz/AION-Project.eu",
 		"open": false,
-		"image": "/images/projects/AION-Project.com.jpg",
-		"markdown": "/markdown/AION-Project.com.md",
+		"image": "/images/projects/AION-Project.eu.jpg",
+		"markdown": "/markdown/AION-Project.eu.md",
 		"icons": [
 			{ "name": "Typescript", "src": "/images/devicons/typescript.svg" },
 			{ "name": "Next", "src": "/images/devicons/next.svg" },

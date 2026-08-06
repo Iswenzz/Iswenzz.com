@@ -2,15 +2,19 @@
 
 ![AION](https://i.imgur.com/fJ98rh9.png)
 
-AION Project is a private server built on a fork of [Beyond Aion](https://github.com/beyond-aion/aion-server). Every piece of game data has been redone from the ground up, re-parsed, reworked, and modded to fit the experience I wanted. The goal was simple to state and enormous to actually do: bring back **everything**. Every version's content, up through 5.6, with nothing deleted and nothing nerfed.
+AION Project is a private server built on a fork of [Beyond Aion](https://github.com/beyond-aion/aion-server). Every piece of game data has been redone from the ground up, re-parsed, reworked, and modded to fit the experience I wanted. The goal was simple to state and enormous to actually do: bring back **everything**. Every version's content, with nothing deleted and nothing nerfed.
 
-The difficulty sits close to AION 1.0, the version where the game asked something of you and rewarded you for rising to it. There are no hand-outs here, no quietly inflated XP, no softened damage or padded health pools to make encounters forgiving. The numbers are tuned to the original challenge.
+This is my vision of how AION is meant to be played, and it draws on every era where doing so makes the game better. The authenticity is real, but so are the changes.
+
+The difficulty is rooted in the original AION, back when the game asked something of you and rewarded you for rising to it. There are no hand-outs here, no quietly inflated XP, no softened damage or padded health pools to make encounters forgiving. In places it pushes past it, with smarter AI that makes fights more demanding than they ever were, and other changes that raise the challenge without ever tipping into tedium, all paired with modern quality-of-life improvements.
 
 Most dungeons were recreated from scratch. I wanted the strategies, the pacing, and the rewards players actually remember from the live game. Where a fight genuinely benefited from it, I went further and introduced new strategies of my own, but only where I felt it earned its place.
 
 You can lock your character's level at any point you choose. If you want to sit in a specific PvE / PvP bracket to run particular content without pushing your main past it, you can, without sacrificing your progression. It's a small piece of flexibility that opens up how people can actually play together.
 
 You can switch between UI layouts pulled from different eras of the game. Whether you're attached to the classic interface or a later revision, the client bends to your taste rather than the other way around.
+
+If you want to read more about the changes, head to https://aion-project.eu/about.
 
 ## The client
 
@@ -22,7 +26,7 @@ The custom client binary, the **[AION](https://github.com/Iswenzz/AION)** reposi
 
 **[AION-Project.eu](https://github.com/Iswenzz/AION-Project.eu)** is the official website for the server including a game database, items, NPCs, quests, and more, alongside player information and game information. And because of IzFF, it has an engine page letting you explore the game's models and maps without launching the client. The site is also reachable from within the game itself.
 
-**[AION-Launcher](https://github.com/Iswenzz/AION-Launcher)** is the front door. It downloads the game, verifies integrity, keeps everything updated, and starts the client with the language you want, and it goes granular: you can set the language independently for text, for voices, and for cutscenes. It also lets you choose your UI theme, whether that's the original *Tower of Eternity* look, the *Ascension* skin, or the *Echoes of Eternity* skin.
+**[AION-Launcher](https://github.com/Iswenzz/AION-Launcher)** is the front door. It downloads the game, verifies integrity, keeps everything updated, and starts the client with the language you want, and it goes granular: you can set the language independently for text, for voices, and for cutscenes. It also lets you choose your UI theme, whether that's the original _Tower of Eternity_ look, the _Ascension_ skin, or the _Echoes of Eternity_ skin.
 
 **[AION-Encdec](https://github.com/Iswenzz/AION-Encdec)** is the tooling that makes the client work possible at all, depacking, decrypting, and repacking the game's archives and files.
 

@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/vZItSj9.jpeg)
 
-A client modification for the AION Project powered by [IzEngine](https://github.com/Iswenzz/IzEngine). Built to go beyond the limitations of the original client. 
+A client modification for the AION Project powered by [IzEngine](https://github.com/Iswenzz/IzEngine). Built to go beyond the limitations of the original client.
 It reworks the engine layer, fixing long-standing bugs, modernizing performance.
 
 ## Engine
@@ -24,6 +24,13 @@ It reworks the engine layer, fixing long-standing bugs, modernizing performance.
 - Reworked in-game menus.
 - Reaches the AION-Project website from inside the client.
 
+## Redistributables
+
+The client requires the following runtimes to be installed.
+
+- [Microsoft Visual C++ Redistributable (v14, x64)](https://aka.ms/vc14/vc_redist.x64.exe)
+- [DirectX End-User Runtime (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
+
 ## Building
 
 _Pre-Requisites:_
@@ -39,5 +46,5 @@ _Build Command:_
 
 ## Contributors
 
-***Note:*** If you would like to contribute to this repository, feel free to send a pull request, and I will review your code.
+**_Note:_** If you would like to contribute to this repository, feel free to send a pull request, and I will review your code.
 Also feel free to post about any problems that may arise in the issues section of the repository.
