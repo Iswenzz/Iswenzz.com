@@ -76,14 +76,6 @@
 		"icons": [{ "name": "C++", "src": "/images/devicons/cpp.svg" }]
 	},
 	{
-		"name": "Q3COD4BSP",
-		"repository": "https://github.com/Iswenzz/Q3COD4BSP",
-		"open": true,
-		"image": "/images/projects/Q3COD4BSP.jpg",
-		"markdown": "https://raw.githubusercontent.com/Iswenzz/Q3COD4BSP/master/README.md",
-		"icons": [{ "name": "Python", "src": "/images/devicons/python.svg" }]
-	},
-	{
 		"name": "gscunit",
 		"repository": "https://github.com/Iswenzz/gscunit",
 		"open": true,
