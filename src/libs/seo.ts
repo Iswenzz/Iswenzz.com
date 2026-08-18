@@ -24,7 +24,6 @@ export const getSEO = ({
 		title: openGraph?.title || title || config.title,
 		description: openGraph?.description || description || config.description,
 		url: openGraph?.url || config.url,
-		images: "/opengraph-image.jpg",
 		locale: "en_US",
 		type: "website"
 	},
@@ -33,8 +32,13 @@ export const getSEO = ({
 		title: openGraph?.title || title || config.title,
 		description: openGraph?.description || description || config.description,
 		card: "summary_large_image",
-		images: "/twittergraph-image.jpg",
 		creator: "@AlexisNardiello"
+	},
+	// Google builds SERP thumbnails from page images, not og:image; opt out of them
+	robots: {
+		index: true,
+		follow: true,
+		"max-image-preview": "none"
 	},
 	alternates: {
 		canonical: url

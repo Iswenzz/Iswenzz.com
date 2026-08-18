@@ -4,7 +4,7 @@ const config: Config = {
 	url: "https://iswenzz.com",
 	theme: "dark",
 	description:
-		"I'm a Software Engineer and a Level Designer. Here you can find all my work. I've experience working on a diverse set of programming topics ...",
+		"I’m a Software Engineer and a Level Designer. Here you can find all my work. I’ve experience working on a diverse set of programming topics ...",
 	keywords: [
 		"Alexis Nardiello",
 		"Iswenzz",
