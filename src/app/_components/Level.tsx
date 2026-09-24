@@ -4,9 +4,10 @@ import { FC, useState } from "react";
 import ReactPlayer from "react-player";
 import Image from "next/image";
 
-import { SlideIn, Dialog } from "@/components";
+import { SlideIn, Dialog, TechIcons, type TechIcon } from "@/components";
+import { buttonProps } from "@/libs/a11y";
 
-const Level: FC<Props> = ({ level }) => {
+const Level: FC<Props> = ({ level, sizes }) => {
 	const [isOpen, setOpen] = useState(false);
 
 	const open = () => setOpen(true);
@@ -14,36 +15,31 @@ const Level: FC<Props> = ({ level }) => {
 
 	return (
 		<>
-			<SlideIn className="relative flex w-full cursor-pointer mb-8" onClick={open}>
+			<SlideIn
+				className="relative flex w-full cursor-pointer mb-8 rounded-box focus-visible:outline-2 focus-visible:outline-primary"
+				aria-label={level.name}
+				aria-haspopup="dialog"
+				{...buttonProps(open)}
+			>
 				<Image
 					className="w-full h-[400px] object-cover select-none rounded-box"
 					src={level.image}
 					alt={level.name}
 					width={1280}
 					height={400}
+					sizes={sizes}
 				/>
 				<h3 className="absolute flex items-center justify-center size-full text-5xl text-center text-white font-bold tracking-widest [text-shadow:black_1px_1px_2px]">
 					<SlideIn>{level.name}</SlideIn>
 				</h3>
-				<div className="absolute flex flex-col items-center right-0 p-4">
-					{level.icons.map(icon => (
-						<div
-							key={icon.name}
-							className="tooltip tooltip-left mb-2"
-							data-tip={icon.name}
-						>
-							<Image
-								className="h-8 w-8 xl:h-14 xl:w-14 select-none"
-								src={icon.src}
-								alt={icon.name}
-								width={56}
-								height={56}
-							/>
-						</div>
-					))}
-				</div>
+				<TechIcons className="absolute flex right-0 p-4" icons={level.icons} />
 			</SlideIn>
-			<Dialog className="max-w-5xl min-h-[80vh]" open={isOpen} onClose={close}>
+			<Dialog
+				className="max-w-5xl min-h-[80vh]"
+				title={level.name}
+				open={isOpen}
+				onClose={close}
+			>
 				<h2 className="text-3xl mb-4">{level.name}</h2>
 				{level.url ? (
 					<ReactPlayer src={level.url} width="100%" height={400} controls />
@@ -54,46 +50,27 @@ const Level: FC<Props> = ({ level }) => {
 						alt={level.name}
 						width={1280}
 						height={640}
+						sizes="(min-width: 1024px) 1024px, 100vw"
 					/>
 				)}
 				<p className="mt-4 text-lg">{level.description}</p>
-				<div className="absolute hidden xl:flex flex-col items-center -left-16 top-8">
-					{level.icons.map(icon => (
-						<div
-							key={icon.name}
-							className="tooltip tooltip-left mb-2"
-							data-tip={icon.name}
-						>
-							<Image
-								className="h-8 w-8 xl:h-14 xl:w-14 select-none"
-								src={icon.src}
-								alt={icon.name}
-								width={56}
-								height={56}
-							/>
-						</div>
-					))}
-				</div>
+				<TechIcons className="absolute hidden xl:flex -left-16 top-8" icons={level.icons} />
 			</Dialog>
 		</>
 	);
 };
 
-type Icon = {
-	name: string;
-	src: string;
-};
-
-type Level = {
+export type LevelData = {
 	name: string;
 	description: string;
 	image: string;
 	url?: string;
-	icons: Icon[];
+	icons: TechIcon[];
 };
 
 type Props = {
-	level: Level;
+	level: LevelData;
+	sizes: string;
 };
 
 export default Level;

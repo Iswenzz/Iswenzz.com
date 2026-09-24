@@ -47,7 +47,7 @@ export const getSEO = ({
 });
 
 export const getViewport = (): Viewport => ({
-	themeColor: config.theme,
+	themeColor: config.themeColor,
 	width: "device-width",
 	initialScale: 1,
 	maximumScale: 2

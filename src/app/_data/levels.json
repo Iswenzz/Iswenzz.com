@@ -2,7 +2,7 @@
 	{
 		"name": "Mirrors Edge",
 		"image": "/images/levels/mp_dr_mirrors_edge/2.jpg",
-		"description": "This project is a detailed recreation of the prologue level from the game *Mirror's Edge*, meticulously designed to capture the essence and visual style of the original game. The map takes full advantage of the capabilities of the Call of Duty 4 game engine, showcasing its flexibility and technical potential. Every aspect of the design pushes the engine to its absolute limits, delivering an immersive and visually striking experience that blends the unique aesthetics of *Mirror's Edge* with the mechanics of Call of Duty 4.",
+		"description": "This project is a detailed recreation of the prologue level from the game Mirror's Edge, meticulously designed to capture the essence and visual style of the original game. The map takes full advantage of the capabilities of the Call of Duty 4 game engine, showcasing its flexibility and technical potential. Every aspect of the design pushes the engine to its absolute limits, delivering an immersive and visually striking experience that blends the unique aesthetics of Mirror's Edge with the mechanics of Call of Duty 4.",
 		"url": "https://www.youtube.com/watch?v=DgjmWXsrc8E",
 		"icons": [
 			{ "name": "Radiant", "src": "/images/devicons/radiant.svg" },

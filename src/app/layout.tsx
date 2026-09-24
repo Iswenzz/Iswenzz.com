@@ -1,6 +1,7 @@
 import type { FC, PropsWithChildren } from "react";
 
 import config from "@/config";
+import { MotionProvider } from "@/components";
 import { getSEO, getViewport } from "@/libs/seo";
 
 import Navbar from "./_components/Navbar";
@@ -19,9 +20,11 @@ export const metadata = getSEO({
 const RootLayout: FC<PropsWithChildren> = ({ children }) => (
 	<html lang="en" data-theme={config.theme}>
 		<body className={roboto.className}>
-			<Navbar />
-			{children}
-			<Footer />
+			<MotionProvider>
+				<Navbar />
+				<main>{children}</main>
+				<Footer />
+			</MotionProvider>
 		</body>
 	</html>
 );

@@ -5,8 +5,13 @@ import { MdClose } from "react-icons/md";
 import { DialogPanel, Dialog as HDialog } from "@headlessui/react";
 import clsx from "clsx";
 
-const Dialog: FC<Props> = ({ open, className, children, onClose }) => (
-	<HDialog open={open} className="relative z-40 focus:outline-none" onClose={onClose}>
+const Dialog: FC<Props> = ({ open, title, className, children, onClose }) => (
+	<HDialog
+		open={open}
+		className="relative z-40 focus:outline-none"
+		aria-label={title}
+		onClose={onClose}
+	>
 		<div className="fixed inset-0 z-40 w-screen overflow-y-auto">
 			<div className="flex min-h-full items-center justify-center p-4">
 				<DialogPanel
@@ -16,11 +21,14 @@ const Dialog: FC<Props> = ({ open, className, children, onClose }) => (
 					)}
 					transition
 				>
-					<MdClose
+					<button
+						type="button"
 						className="float-right cursor-pointer hover:text-error transition-colors duration-300"
+						aria-label="Close"
 						onClick={onClose}
-						size={24}
-					/>
+					>
+						<MdClose size={24} />
+					</button>
 					{children}
 				</DialogPanel>
 			</div>
@@ -30,6 +38,7 @@ const Dialog: FC<Props> = ({ open, className, children, onClose }) => (
 
 type Props = {
 	open: boolean;
+	title: string;
 	className?: string;
 	children: ReactNode;
 	onClose: () => void;

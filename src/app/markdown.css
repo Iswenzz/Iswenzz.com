@@ -37,6 +37,19 @@
 	ol {
 		@apply pb-2 pl-10 list-disc;
 	}
+
+	ol {
+		@apply list-decimal;
+	}
+
+	table {
+		@apply block max-w-full overflow-x-auto mb-4;
+	}
+
+	th,
+	td {
+		@apply px-4 py-1 text-left border-b border-gray-700;
+	}
 }
 
 .hljs {

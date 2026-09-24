@@ -3,7 +3,7 @@ import Link from "next/link";
 import NavbarMenu from "./NavbarMenu";
 
 const Navbar = () => (
-	<nav className="fixed z-30 navbar bg-base-100 px-4 py-0.5 min-h-12 text-gray-300 bg-transparent">
+	<nav className="fixed z-30 navbar px-4 py-0.5 min-h-12 text-gray-300 bg-transparent">
 		<NavbarDesktop />
 		<NavbarMobile />
 	</nav>

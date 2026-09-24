@@ -11,26 +11,20 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
-              uses: actions/checkout@v2
-              with:
-                  submodules: "recursive"
+              uses: actions/checkout@v7
 
-            - name: Build
+            - name: Setup Node
+              uses: actions/setup-node@v7
+              with:
+                  node-version: 24
+
+            - name: Install
               run: |
                   corepack enable
-                  yarn --no-immutable
-                  yarn build
-
-    lint:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v2
-              with:
-                  submodules: "recursive"
+                  yarn install --immutable
 
             - name: Lint
-              run: |
-                  corepack enable
-                  yarn --no-immutable
-                  yarn lint
+              run: yarn lint
+
+            - name: Build
+              run: yarn build
